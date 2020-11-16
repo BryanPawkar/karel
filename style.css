@@ -35,18 +35,14 @@ background-image: url("https://www.transparenttextures.com/patterns/dark-brick-w
     width: 100%;
     height: 3rem;
     background: black;
-    position: relative;
+    position: fixed;
     color: white;
     text-align: center;
     margin: 0 auto;
+    bottom: 0;
 }
 @media only screen and (max-width: 780px){
     .box{
         width: 60%;
-    }
-    .footer{
-        height: 4rem;
-        bottom: -56rem;
-        position: absolute;
     }
 }
