@@ -19,6 +19,7 @@ background-image: url("https://www.transparenttextures.com/patterns/dark-brick-w
     margin: 0 auto;
     flex-grow: 1;
     transition: 1s all;
+    position: relative;
 }
 .uno{
     text-align: center;
@@ -36,7 +37,7 @@ background-image: url("https://www.transparenttextures.com/patterns/dark-brick-w
     height: 3rem;
     background: black;
     position: fixed;
-    color: white;
+    color: black;
     text-align: center;
     margin: 0 auto;
     bottom: 0;
@@ -45,4 +46,8 @@ background-image: url("https://www.transparenttextures.com/patterns/dark-brick-w
     .box{
         width: 60%;
     }
+    .footer{
+        color: white;
+    }
+
 }
