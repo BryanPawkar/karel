@@ -5,6 +5,7 @@ html, body{
     padding: 0;
     background-color: #d6b7b7;
 background-image: url("https://www.transparenttextures.com/patterns/dark-brick-wall.png");
+font-family: Arial, Helvetica, sans-serif;
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 .grid{
@@ -24,9 +25,10 @@ background-image: url("https://www.transparenttextures.com/patterns/dark-brick-w
 .uno{
     text-align: center;
 }
-.uno div img{
-    width: 100%;
-    margin-top: 3.2rem;
+.uno img{
+    width: 30%;
+    margin: .5rem 0; 
+    height: 30%;
 }
 .uno img:hover{
     cursor: pointer;
@@ -42,6 +44,24 @@ background-image: url("https://www.transparenttextures.com/patterns/dark-brick-w
     margin: 0 auto;
     bottom: 0;
 }
+.info{
+    text-align: right;
+    position: relative;
+    top: -9rem;
+    width: 50%;
+}
+.info a{
+    text-decoration: none;
+    transition: all 1s;
+    color: #AE431F;
+}
+.info img{
+    width: 45px;
+    top: -1rem;
+    position: relative;
+    transition: all 1s;
+}
+
 @media only screen and (max-width: 780px){
     .box{
         width: 60%;
@@ -50,5 +70,14 @@ background-image: url("https://www.transparenttextures.com/patterns/dark-brick-w
         color: white;
         height: 2.5rem;
     }
-
+    .info{
+        text-align: center;
+        width: 100%;
+    }
+    .info h3{
+        display: none;
+    }
+    .info img{
+        top: 3.8rem;
+    }
 }
